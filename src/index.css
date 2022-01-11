@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=McLaren&family=Montserrat&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #1C2B2D;
+  background-color: #FFBD35;
+}
+/*----------- navbar ----------*/
+.navbar {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px solid #5F6769;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar h2 {
+  font-size: 20px;
+  background-color: #072227;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+.navbar a {
+  padding-left: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  color: #99154E;
+}
+/*---------- home/content/blog-preview ----------*/
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+  margin: 20px 0;
+  padding: 16px 12px;
+}
+.blog-preview:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 16px;
+  /* slow down hover effect */
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  padding-bottom: 6px;
+  color: #502064;
+}
