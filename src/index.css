@@ -58,3 +58,53 @@
   padding-bottom: 6px;
   color: #502064;
 }
+.blog-preview a {
+    font-size: 14px;
+    text-decoration: none;
+}
+/*---------- blog-details ----------*/
+.blog-details p {
+  padding: 16px 0;
+}
+.blog-details div {
+  padding-bottom: 16px;
+  text-align: justify;
+}
+.blog-details button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  background-color: #072227;
+  cursor: pointer;
+}
+/*---------- create ----------*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #502064;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+.create button {
+  background: #072227;
+  border: 0;
+  padding: 8px;
+  margin: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
